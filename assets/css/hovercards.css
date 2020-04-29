@@ -1,0 +1,175 @@
+/* Included color classes.. 
+	.red 
+	.blue 
+	.yellow
+*/
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face {
+  font-family: 'Calibre';
+  src: url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Bold.eot');
+  src: url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Bold.eot?#iefix') format('embedded-opentype'), url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Calibre';
+  src: url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Regular.eot');
+  src: url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'), url('https://ahoy.co.uk/resources/mfonts/fonts/CalibreWeb-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+  background-color:white;
+  font-family: 'Calibre';
+}
+.header {
+  width: 100%;
+  padding: 0em 1em 2em 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+figure.snip1183 {
+  font-family: 'Calibre', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 320px;
+  width: 100%;
+  background: white;
+  text-align: left;
+  color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  overflow: scroll;
+}
+figure.snip1183 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip1183 img {
+  vertical-align: top;
+  max-width: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+figure.snip1183 figcaption {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    padding: 82px 20px 20px;
+    /* overflow: scroll; */
+}
+
+figure.snip1183 figcaption::before {
+  position: absolute;
+  min-width: 35px;
+  min-height: 35px;
+  top: 0%;
+  left: 0%;
+  bottom: 90%;
+  right: 90%;
+  content: '';
+  display: block;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+figure.snip1183 h3,
+figure.snip1183 p {
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip1183 h3 {
+  text-transform: uppercase;
+  text-align: right;
+  margin: -65px 0 5px;
+  font-weight: 400;
+  -webkit-transform: translateX(10px);
+  transform: translateX(10px);
+}
+figure.snip1183 h3 span {
+  font-weight: 800;
+}
+figure.snip1183 p {
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+  overflow:scroll;
+  padding-bottom:20px;
+}
+figure.snip1183 i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 29px;
+  color: #000000;
+  width: 35px;
+  height: 35px;
+  line-height: 39px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+figure.snip1183 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+figure.snip1183.blue {
+  background-color: #2472a4;
+  color: #164666;
+}
+figure.snip1183.blue i {
+  color: #20638f;
+}
+figure.snip1183.red {
+  background-color: #ab3326;
+  color: #6d2018;
+}
+figure.snip1183.red i {
+  color: #962d22;
+}
+figure.snip1183.yellow {
+  background-color: #e08e0b;
+  color: #976008;
+}
+figure.snip1183.yellow i {
+  color: #c87f0a;
+}
+figure.snip1183:hover img,
+figure.snip1183.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1183:hover figcaption:before,
+figure.snip1183.hover figcaption:before {
+  right: 0%;
+  bottom: 0%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip1183:hover h3,
+figure.snip1183.hover h3,
+figure.snip1183:hover p,
+figure.snip1183.hover p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+figure.snip1183:hover i,
+figure.snip1183.hover i {
+  background: rgba(255, 255, 255, 0.8);
+}
