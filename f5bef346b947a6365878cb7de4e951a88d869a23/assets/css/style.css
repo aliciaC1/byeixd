@@ -220,7 +220,7 @@ button {
   padding: 20px 20px;
   text-align: center;
   min-width: 203px;
-  margin: 44px auto 0;
+  margin: 44px auto 60px;
   display: block;
   cursor: pointer;
   transition: background-color 0.4s cubic-bezier(0.19, 1, 0.22, 1);
@@ -535,7 +535,7 @@ h2 span .bold-1{
   color: black;
   top: 0px;
   float: left;
-  margin-top: -120px;
+  margin-top: -155px;
   box-shadow: #160C3B;
   width: 15rem;
   height: 5rem;
