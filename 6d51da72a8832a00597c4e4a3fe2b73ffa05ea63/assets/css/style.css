@@ -46,7 +46,7 @@ body {
 .stage-text {
   /* padding-top: 150%; */
   position: absolute;
-  top: 130%;
+  top: 300%;
   left: 40%;
   transform: translate(-50%, -50%);
   width: 70%;
