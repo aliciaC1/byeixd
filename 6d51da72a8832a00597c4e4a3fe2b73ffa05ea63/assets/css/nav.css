@@ -427,7 +427,7 @@ body.light .switch-wrap p span:nth-child(1):before {
 }
 
 canvas {
-    cursor: crosshair;
+    cursor: url(../images/scotthead.png), auto;
   }
 
   .draw-ltr{
