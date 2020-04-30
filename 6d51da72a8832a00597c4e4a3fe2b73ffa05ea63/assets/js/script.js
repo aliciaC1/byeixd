@@ -74,55 +74,55 @@ $(document).ready(function(){
 		opacity: 0
 	}, 0);
 	
-	$('.footer').on('click', function(){
+// 	$('.footer').on('click', function(){
 		
-		$('h3').velocity({
-			translateX: '-200px',
-			opacity: 0
-		}, 800, easing);
+// 		$('h3').velocity({
+// 			translateX: '-200px',
+// 			opacity: 0
+// 		}, 800, easing);
 		
-		$('h1').velocity({
-			translateY: 100,
-			opacity: 0
-		}, {duration: 800, delay: 300}, easing);
+// 		$('h1').velocity({
+// 			translateY: 100,
+// 			opacity: 0
+// 		}, {duration: 800, delay: 300}, easing);
 
-		$('h2').velocity({
-			translateY: 0
-		}, {duration: 800, delay: 600}, easing);
+// 		$('h2').velocity({
+// 			translateY: 0
+// 		}, {duration: 800, delay: 600}, easing);
 
-		$('.footer').addClass('is-active').velocity({
-			maxHeight: 800
-		}, {duration: 800, delay: 600}, easing);
+// 		$('.footer').addClass('is-active').velocity({
+// 			maxHeight: 800
+// 		}, {duration: 800, delay: 600}, easing);
 
-		$('.close').velocity({
-			opacity: 1
-		}, {duration: 800, delay: 600}, easing)
+// 		$('.close').velocity({
+// 			opacity: 1
+// 		}, {duration: 800, delay: 600}, easing)
 
-		$('form').velocity({
-			translateY: 0,
-			opacity: 1
-		}, {duration: 800, delay: 600}, easing);
-	});
+// 		$('form').velocity({
+// 			translateY: 0,
+// 			opacity: 1
+// 		}, {duration: 800, delay: 600}, easing);
+// 	});
 	
-	$('.close').on('click', function(e){
-		e.stopPropagation();
+// 	$('.close').on('click', function(e){
+// 		e.stopPropagation();
 		
-		$('h3').velocity('reverse', {duration: 800, delay: 800}, easing);
+// 		$('h3').velocity('reverse', {duration: 800, delay: 800}, easing);
 		
-		$('h1').velocity('reverse', {duration: 800, delay: 300}, easing);
+// 		$('h1').velocity('reverse', {duration: 800, delay: 300}, easing);
 
-		$('h2').velocity('reverse', {duration: 800}, easing);
+// 		$('h2').velocity('reverse', {duration: 800}, easing);
 
-		$('.close').velocity('reverse', {duration: 800}, easing)
+// 		$('.close').velocity('reverse', {duration: 800}, easing)
 
-		$('form').velocity('reverse', {duration: 800}, easing);
+// 		$('form').velocity('reverse', {duration: 800}, easing);
 
-		$('.footer').velocity('reverse', {duration: 800}, easing);
+// 		$('.footer').velocity('reverse', {duration: 800}, easing);
 		
-		setTimeout(function(){
-			$('.footer').removeClass('is-active');
-		}, 900)
-	})
+// 		setTimeout(function(){
+// 			$('.footer').removeClass('is-active');
+// 		}, 900)
+// 	})
 
 });
 

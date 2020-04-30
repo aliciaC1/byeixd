@@ -19,14 +19,14 @@
         min = $(this).offset().top;
         max = $(this).height() + $(this).offset().top;
         var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+        if (i == itemLength - 1 && pos > min + $(this).height() / 2) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.id.css(
             "background-color",
             "white"
           );
           selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
+        } else if (pos <= max - 80 && pos >= min) {
           selectors.id.css(
             "background-color",
             "white" 

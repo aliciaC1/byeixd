@@ -29,6 +29,7 @@
   box-sizing: border-box;
   font-family: "Calibre", sans-serif;
   color: black;
+  font-weight: 700;
 }
 .timeline__content-desc {
   margin: 0;
@@ -39,6 +40,7 @@
   font-weight: normal;
   line-height: 25px;
 }
+
 .timeline:before {
   position: absolute;
   left: 50%;
@@ -148,25 +150,26 @@
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  font-weight:700;
 }
 .timeline-header__title {
   color: black;
   font-size: 46px;
   font-family: 'Calibre';
-  font-weight: normal;
+  font-weight: bold;
   margin: 0;
 }
 .timeline-header__subtitle {
   color: black;
   font-family: "Calibre", sans-serif;
   font-size: 16px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   margin: 10px 0 0 0;
   font-weight: normal;
 }
 
 .demo-footer {
-  padding: 60px 0;
+  padding: 360px 0;
   text-align: center;
 }
 .demo-footer a {
@@ -174,3 +177,10 @@
   display: inline-block;
   font-family: 'Calibre';
 }
+
+.ixdlogo{
+  margin-left: 94px;
+  width: 59%;
+  opacity: 28%;
+}
+

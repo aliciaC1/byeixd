@@ -99,7 +99,7 @@ function doubleClick( event ) {
 }
 
 function textWidth( string, size ) {
-  context.font = size + "px Georgia";
+  context.font = size + "px Calibre";
   
   if ( context.fillText ) {
     return context.measureText( string ).width;

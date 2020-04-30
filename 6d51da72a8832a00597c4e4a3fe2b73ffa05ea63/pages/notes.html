@@ -4,19 +4,53 @@
   <meta charset="UTF-8">
   <link rel="shortcut icon" type="image/png" href="../assets/images/scott.jpeg">
   <title>Thank you, Scott.</title>
-  <link rel="stylesheet" href="../assets/css/notes.css">
+  <link rel="stylesheet" href="../assets/css/nav.css">
+  <!-- <link rel="stylesheet" href="../assets/css/notes.css"> -->
 
 </head>
-<body>
+<body class ="light">
+
+  
 <!-- partial:index.partial.html -->
 <div class = "container"> 
-<h1>How IXD Has Impacted Us</h1>
+  <!--Nav Bar here-->
+  <header class="cd-header ">
+		<div class="header-wrapper">
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>					
+		</div>				
+	</header>
+
+	<div class="nav">
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item"><a href="../index.html" class="hover-target">Dear Scott,</a></li>
+				<li class="nav__list-item"><a href="../pages/timeline.html" class="hover-target">Timeline</a></li>
+				<li class="nav__list-item active-nav"><a href="../pages/notes.html" class="hover-target">Words</a></li>
+				<li class="nav__list-item"><a href="../pages/hovercards.html" class="hover-target">Messages</a></li>
+				<li class="nav__list-item"><a href="../pages/contributors.html" class="hover-target">Contributions</a></li>
+			</ul>
+		</div>
+	</div>		
+
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+  <div class='cursor3' id="cursor3"></div>
+  
+
+  <!----Body Start here-->
+<!-- <div>
 <canvas id='canvas'></canvas>
 <span id='info'>Click and drag to draw!<span>
-</div>
-<!--
-<!-- partial -->
-  <script  src="../assets/js/notes.js"></script>
+</div> -->
+<script src='../assets/js/nav.js'></script>
+  <!-- <script  src="../assets/js/notes.js"></script> -->
+
 
 </body>
 </html>
